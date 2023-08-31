@@ -1,0 +1,29 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.img {
+  width: 100px;
+  height: 100px;
+}
+
+.li {
+  background-color: #ffffff;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.para {
+  font-size: 23px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .li {
+    max-width: 170px;
+  }
+}
